@@ -16,13 +16,15 @@ body {
 
 }
 
-header {
-  font-family: Belanosima;
-  background-color: #9ACD32;
+* {
+    box-sizing: border-box;
 }
-footer { 
-  font-family: Ysabeau;
-  background-color: #9ACD32;
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: o auto;
+  align-items: center;
 }
 
 @font-face {
@@ -35,9 +37,6 @@ footer {
   src: url(assets/fonts/text/static/YsabeauOffice-Bold.ttf);
 }
 
-* {
-    box-sizing: border-box;
-}
 
 .container {
   max-width: 1440px;
@@ -53,7 +52,6 @@ footer {
 
 a {
   text-decoration: none; 
-  
   color: #808000;
   transition: color 0.5s;
 }
@@ -111,12 +109,7 @@ a:hover {
   color: #808000;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  margin: o auto;
-  align-items: center;
-}
+
 
 .section-list {
   font-family: Ysabeau;
@@ -141,4 +134,14 @@ a:hover {
 
 .languages-item {
   font-size: 20px;
+}
+
+header {
+  font-family: Belanosima;
+  background-color: #9ACD32;
+}
+
+footer { 
+  font-family: Ysabeau;
+  background-color: #9ACD32;
 }
