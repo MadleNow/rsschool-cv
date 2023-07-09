@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://madlenow.github.io/rsschool-cv/
