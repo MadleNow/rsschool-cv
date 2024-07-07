@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ecec83;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: o auto;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Belanosima;
+    src: url(assets/fonts/Header/Belanosima-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url(assets/fonts/text/static/YsabeauOffice-Bold.ttf);
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #808000;
+    transition: color 0.5s;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #006400;
+}
+
+.section-title {
+    font-family: Belanosima;
+    color: #808000;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-title-profile {
+    font-family: Belanosima;
+    color: #808000;
+}
+
+.text-profile {
+    color: #808000;
+    font-size: 20px;
+    font-family: Ysabeau;
+}
+
+.section-foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-text {
+    text-align: right;
+    color: #808000;
+}
+
+
+
+.section-list {
+    font-family: Ysabeau;
+    color: #808000;
+}
+
+.contacts-item {
+    font-size: 20px;
+}
+
+.section-text {
+    font-size: 20px;
+    font-family: Ysabeau;
+    color: #808000;
+}
+
+.pre {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.languages-item {
+    font-size: 20px;
+}
+
+header {
+    font-family: Belanosima;
+    background-color: #9ACD32;
+}
+
+footer {
+    font-family: Ysabeau;
+    background-color: #9ACD32;
+}
