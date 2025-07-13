@@ -1,3 +1,112 @@
-h1 {
-    color: blanchedalmond;
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fce4a7;
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#header-container {
+    background-color: #c72804;
+    max-width: 1100px;
+    height: 100%;
+    margin-right: 0%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: #542205;
+    font-family: LibreBaskerville-Bold;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: wheat;
+}
+
+@font-face {
+    font-family: LibreBaskerville-Bold;
+    src: url(assets/fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family: LibreBaskerville-Italic;
+    src: url(assets/fonts/LibreBaskerville-Italic.ttf);
+}
+
+@font-face {
+    font-family: LibreBaskerville-Regular;
+    src: url(assets/fonts/LibreBaskerville-Regular.ttf);
+}
+
+#main-container {
+    display: flex;
+}
+
+.left-side {
+    width: 25%;
+    background-color: #c72804;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.right-side {
+    width: 75%;
+    padding: 40px;
+}
+
+#footer-container {
+    background-color: #c72804;
+    max-width: 1100px;
+    height: 100%;
+    margin-right: 0%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-element {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+#year {
+    font-family: LibreBaskerville-Bold;
 }
